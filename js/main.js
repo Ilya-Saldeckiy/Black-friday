@@ -9,7 +9,7 @@ $(function() {
 $(document).on('click', '.video__preview', function() {
 	var $video = $('#video'),
 		src = $video.attr('src');
- 
+
 	$video.attr('src', src + '&autoplay=1');
 });
 
@@ -19,4 +19,10 @@ document.querySelectorAll('.question-link').forEach(function(cart){
             tabContent.classList.toggle('close-border')
         })
     })
+})
+
+
+document.getElementById('testBtn').addEventListener('click', function(event){
+	const el = document.getElementById('test-2');
+	el.scrollIntoView({behavior: "smooth"});
 })
