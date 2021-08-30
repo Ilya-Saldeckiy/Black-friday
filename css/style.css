@@ -79,6 +79,11 @@ li{
     margin: 0;
 }
 
+
+.mobile__wrap{
+	display: none;
+}
+
 .list-reset{
 	margin: 0;
 	padding: 0;
@@ -115,6 +120,7 @@ li{
     border: none;
     outline: none;
     cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .vpc,.nowrap{
@@ -226,7 +232,7 @@ li{
     background: url('../img/header_bg.jpg') 50% 100% no-repeat;
     background-position: top;
     /* background-size: cover; */
-    padding-bottom: 132px;
+    padding-bottom: 121px;
 }
 
 .header-phone-position{
@@ -316,8 +322,17 @@ li{
 	line-height: 24px;
 	font-weight: 400;
 	color: #ffffff;
+	transition: background-color 0.3s ease-in-out;
 }
 
+.header__btn:hover{
+	background-color: #0949bc;
+}
+
+
+.animate__btn:hover{
+	background-color: #18bbf0;
+}
 
 /* Стили основного контента */
 
@@ -1163,7 +1178,7 @@ li{
 }
 
 .radio:not(:last-child) {
-	margin-bottom: 43px;
+	margin-bottom: 29px;
 }
 
 .result__persent{
@@ -1183,7 +1198,31 @@ li{
 	display: flex;
 }
 
+.info__percent-cart:not(:last-child) {
+	margin-right: 76px;
+}
 
+.cart__percent{
+	letter-spacing: -0.1em;
+	margin-bottom: 30px;
+}
+
+.simptoms__text{
+	margin-bottom: 44px;
+}
+
+.test-first__text{
+	line-height: 28px;
+}
+
+.first-test__input{
+	font-weight: normal;
+}
+
+
+.second__test-caption-question{
+	margin-bottom: 44px;
+}
 
 
 /* Адаптив */
@@ -1395,6 +1434,10 @@ li{
 
 	.simptom__second-text{
 		margin-right: 0;
+	}
+
+	.info__percent-cart {
+		width: 254px;
 	}
 }
 
@@ -1793,7 +1836,7 @@ li{
 	}
 
 	.test-first__left-block{
-		width: 340px;
+		width: 364px;
 	}
 
 	.first-test__label{
@@ -1867,7 +1910,26 @@ li{
 		font-size: 18px;
 	}
 
+	.cart__percent-text{
+		font-size: 16px;
+		line-height: 24px;
+	}
 
+	.steps__position{
+		width: 100%;
+	}
+
+	.steps__cart {
+		width: 49%;
+	}
+
+	.test-first__position{
+		margin-bottom: 41px;
+	}
+
+	.first-test__label {
+		margin-bottom: 10px;
+	}
 
 
 }
@@ -1951,7 +2013,7 @@ li{
     .header-phone-position{
         font-size: 11px;
         line-height: 1.2;
-        margin-right: 12px;
+        margin-right: 0px;
     }
 
     .cart-btn{
@@ -2005,6 +2067,10 @@ li{
         background-size: 100% auto;
         padding-top: 16px;
     }
+
+		.mobile__wrap{
+			display: block;
+		}
 
     .btn{
         font-size: 14px;
@@ -2700,6 +2766,56 @@ li{
 
 	.promocode__test-caption{
 		font-size: 18px;
+	}
+
+	.header-caption{
+		width: 240px;
+	}
+
+	.steps__position{
+		flex-direction: column;
+	}
+
+	.steps__cart {
+		width: 100%;
+		text-align: left;
+	}
+
+	.steps__cart-text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.imt__block{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.test-first__position {
+		margin-bottom: 30px;
+	}
+
+	.first-test__label {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 600;
+		margin-bottom: 7px;
+	}
+
+	.mobile__last-input{
+		margin-bottom: 24px !important;
+	}
+
+	.second__test-stage{
+		text-align: center;
+	}
+
+	.test__stage-line {
+		width: 10%;
+	}
+
+	.second__test-caption-question{
+		margin-bottom: 40px;
 	}
 
 

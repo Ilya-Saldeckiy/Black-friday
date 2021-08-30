@@ -17,6 +17,11 @@
     <script src="js/jquery.js"></script>
     <script src="js/iquery-ui.js"></script>
 	<script src="js/inputmask.min.js"></script>
+
+	<script src="/local/js/jquery-3.4.1.min.js"></script>
+	<script src="/local/js/iquery-ui.js"></script>
+	<script type="text/javascript" src="/local/widget/config.js"></script>
+
 </head>
 <body>
     <section class="header-section">
@@ -47,7 +52,7 @@
         <header class="container">
             <div class="header-caption-position">
                 <h2 class="header-caption">Заботитесь <span class="caption-decoration">ли вы о своем сердце?</span></h2>
-                <h4 class="header-subtitle">Пройдите тест с 29 сентября по 3 октября и&nbsp;получите уникальный промокод на&nbsp;бесплатное скрининговое исследование</h4>
+                <h4 class="header-subtitle">Пройдите тест с&nbsp;29&nbsp;сентября по&nbsp;3&nbsp;октября и&nbsp;получите уникальный промокод на&nbsp;бесплатное скрининговое исследование</h4>
 								<button class="btn header__btn" id="testBtn">Пройти тест</button>
             </div>
         </header>
@@ -55,7 +60,7 @@
         <main>
             <section class="section__info" id="section-inf">
                 <div class="container">
-                    <p class="info__text text__paragraph">Согласно <span class="info__text-decoration">докладу</span> Всемирной организации здравоохранения, последние 20&nbsp;лет сердечно-сосудистые заболевания являются ведущей причиной смертности населения Земли. По данным на&nbsp;2019 год, число летальных исходов из-за болезни сердца составило 17,9 млн. человек, и&nbsp;это 32% от&nbsp;общего количества смертей*. Эта статистика красноречиво показывает, что заботиться о&nbsp;здоровье своего сердца нужно заранее.
+                    <p class="info__text text__paragraph">Согласно <a href="https://www.who.int/news/item/09-12-2020-who-reveals-leading-causes-of-death-and-disability-worldwide-2000-2019" target="_blank"><span class="info__text-decoration">докладу</span></a> Всемирной организации здравоохранения, последние 20&nbsp;лет сердечно-сосудистые заболевания являются ведущей причиной смертности населения Земли. По данным на&nbsp;2019 год, число летальных исходов из-за болезни сердца составило 17,9 млн. человек, и&nbsp;это 32% от&nbsp;общего количества смертей*. Эта статистика красноречиво показывает, что заботиться о&nbsp;здоровье своего сердца нужно заранее.
 										</p>
 								</div>
 										<div class="small-container info__percent-block">
@@ -74,7 +79,7 @@
 										</div>
 							<div class="small-container prompt__position">
                     <p class="info__prompt">* По данным Всемирной организации здравоохранения</p>
-										<p class="info__prompt">** Федеральная служба государственной статистики «Здравоохранение в&nbsp;России» 2017 г.</p>
+										<p class="info__prompt">** Федеральная служба государственной статистики «Здравоохранение в&nbsp;России» 2017&nbsp;г.</p>
 							</div>
             </section>
             <section class="section__understandunderstand" id="understand">
@@ -119,8 +124,8 @@
 											</ul>
 										</div>
 									</div>
-									<h2 class="main-caption">Как COVID-19 влияет на&nbsp;сердечно-сосудистую систему?</h2>
-									<p class="simptom__description"><span class="info__text-decoration">По данным ВОЗ</span>, пациенты с&nbsp;ССЗ и&nbsp;связанными с&nbsp;ними факторами риска, такими как гипертония, больше подвержены заражению COVID-19 и&nbsp;риску возникновения негативных последствий для здоровья после перенесенной коронавирусной инфекции. Одним из&nbsp;наиболее распространённых заболеваний ССЗ у переболевших COVID-19 является миокардит. Это воспалительный процесс в&nbsp; мышечных тканях сердца. Его несвоевременное выявление может впоследствии привести к&nbsp;аритмии, формированию внутрисердечных тромбов, кардиомиопатии и&nbsp;т.д.</p>
+									<h2 class="main-caption">Как <span class="nowrap">COVID-19</span> влияет на&nbsp;сердечно-сосудистую систему?</h2>
+									<p class="simptom__description"><a href="https://www.euro.who.int/ru/health-topics/noncommunicable-diseases/cardiovascular-diseases/news/news/2021/01/new-who-report-population-based-screening-for-cardiovascular-disease-risk-factors-does-not-reduce-cvd-mortality" target="_blank"><span class="info__text-decoration">По&nbsp;данным ВОЗ</span></a>, пациенты с&nbsp;ССЗ и&nbsp;связанными с&nbsp;ними факторами риска, такими как гипертония, больше подвержены заражению COVID-19 и&nbsp;риску возникновения негативных последствий для&nbsp;здоровья после перенесенной коронавирусной инфекции. Одним из&nbsp;наиболее распространённых заболеваний ССЗ у&nbsp;переболевших COVID-19 является миокардит. Это воспалительный процесс в&nbsp;мышечных тканях сердца. Его несвоевременное выявление может впоследствии привести к&nbsp;аритмии, формированию внутрисердечных тромбов, кардиомиопатии и&nbsp;т.д.</p>
                 </div>
             </section>
 						<section class="section__steps" id="steps">
@@ -164,30 +169,32 @@
 										<p class="steps__cart-text">Проверяйте уровень сахара в&nbsp;крови</p>
 									</div>
 								</div>
+							</div>
+							<div class="container imt__block">
 								<div class="block__test-first">
 									<div class="test-first__left-block">
 										<div class="test-first__position">
 											<img class="test-first__img" src="img/step_10.svg" alt="">
-											<p class="test-first__title">Определите Ваш
+											<p class="test-first__title">Определите Ваш<br>
 												индекс массы тела</p>
 										</div>
 										<p class="test-first__text">Индекс массы тела поможет оценить риск развития заболеваний сердца и&nbsp;подобрать рекомендуемые лично Вам исследования.</p>
 									</div>
-									<div class="test-first__right-block">
-										<form>
-											<div class="position__input">
-												<label class="first-test__label">Ваш рост, см:</label>
-												<input class="first-test__input reset-input" type="text">
+								<div class="test-first__right-block">
+									<form>
+										<div class="position__input">
+											<label class="first-test__label">Ваш рост, см:</label>
+											<input class="first-test__input reset-input" type="text">
+										</div>
+										<div class="position__input">
+											<label class="first-test__label">Ваш вес, кг:</label>
+											<div class="mobile__size">
+												<input class="first-test__input reset-input mobile__last-input" type="text">
+												<button class="btn first-test__btn animate__btn">Узнать риск </button>
 											</div>
-											<div class="position__input">
-												<label class="first-test__label">Ваш вес, кг:</label>
-												<div class="mobile__size">
-													<input class="first-test__input reset-input" type="text">
-													<button class="btn first-test__btn">Узнать риск </button>
-												</div>
-											</div>
-										</form>
-									</div>
+										</div>
+									</form>
+								</div>
 								</div>
 							</div>
 							<div class="container d-flex result__test-first middle-lvl">
@@ -224,7 +231,7 @@
 							<h2 class="main-caption">Тест «Заботитесь ли&nbsp;Вы о&nbsp;своем сердце?»</h2>
 							<div class="second__test-position step-1 active__step">
 								<div class="second__test-left-block">
-									<p class="second__test-stage">1/10</p>
+									<p class="second__test-stage">1 / 10</p>
 									<div class="d-flex test__stage">
 										<span class="test__stage-line test__stage-line-red"></span>
 										<span class="test__stage-line"></span>
@@ -249,13 +256,13 @@
 											<span class="checkmark"></span>
 											Мужчина
 										</label>
-										<button type="button" class="btn test__stage-btn">Далее</button>
+										<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 									</form>
 								</div>
 							</div>
 								<div class="second__test-position step-2">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">2/10</p>
+										<p class="second__test-stage">2 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -290,13 +297,13 @@
 												<span class="checkmark"></span>
 												Старше 65
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-3">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">3/10</p>
+										<p class="second__test-stage">3 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -321,13 +328,13 @@
 												<span class="checkmark"></span>
 												Нет
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-4">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">4/10</p>
+										<p class="second__test-stage">4 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -362,13 +369,13 @@
 												<span class="checkmark"></span>
 												более 1 раза в&nbsp;неделю
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-5">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">5/10</p>
+										<p class="second__test-stage">5 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -404,13 +411,13 @@
 												Нет
 											</label>
 											<p></p>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-6">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">6/10</p>
+										<p class="second__test-stage">6 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -440,13 +447,13 @@
 												<span class="checkmark"></span>
 												Более 3-х раз в неделю
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-7">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">7/10</p>
+										<p class="second__test-stage">7 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -471,13 +478,13 @@
 												<span class="checkmark"></span>
 												Более 10 тысяч шагов
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-8">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">8/10</p>
+										<p class="second__test-stage">8 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -512,13 +519,13 @@
 												<span class="checkmark"></span>
 												не помню, когда последний раз был
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-9">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">9/10</p>
+										<p class="second__test-stage">9 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -553,13 +560,13 @@
 												<span class="checkmark"></span>
 												Нет
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
 								<div class="second__test-position step-10">
 									<div class="second__test-left-block">
-										<p class="second__test-stage">10/10</p>
+										<p class="second__test-stage">10 / 10</p>
 										<div class="d-flex test__stage">
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
@@ -599,7 +606,7 @@
 												<span class="checkmark"></span>
 												Овощи/фрукты
 											</label>
-											<button type="button" class="btn test__stage-btn">Далее</button>
+											<button type="button" class="btn test__stage-btn animate__btn">Далее</button>
 										</form>
 									</div>
 								</div>
@@ -627,7 +634,7 @@
 											<p>Телефон</p>
 											<input class="promocode__input reset-input" type="tel" placeholder="+7 (___) ___-__-__" required>
 										</div>
-										<button class="btn promocode__btn" type="button">Получить промокод</button>
+										<button class="btn promocode__btn animate__btn" type="button">Получить промокод</button>
 									</div>
 									<div class="success__promocode-block d-flex">
 										<img class="success__promocode-img" src="img/ico.png" alt="">
@@ -658,7 +665,7 @@
 											<p>Телефон</p>
 											<input class="promocode__input reset-input" type="tel" placeholder="+7 (___) ___-__-__" required>
 										</div>
-										<button class="btn promocode__btn" type="button">Получить промокод</button>
+										<button class="btn promocode__btn animate__btn" type="button">Получить промокод</button>
 									</div>
 									<div class="success__promocode-block d-flex">
 										<img class="success__promocode-img" src="img/ico.png" alt="">
@@ -689,7 +696,7 @@
 											<p>Телефон</p>
 											<input class="promocode__input reset-input" type="tel" placeholder="+7 (___) ___-__-__" required>
 										</div>
-										<button class="btn promocode__btn" type="button">Получить промокод</button>
+										<button class="btn promocode__btn animate__btn" type="button">Получить промокод</button>
 									</div>
 									<div class="success__promocode-block d-flex">
 										<img class="success__promocode-img" src="img/ico.png" alt="">
@@ -701,21 +708,33 @@
 						<section class="section__conditions" id="treatment">
 							<div class="container">
 								<h2 class="main-caption">Условия акции</h2>
-									<p class="conditions__text">В&nbsp;акции участвуют исследования «090009 - Холестерин общий» и&nbsp;«090088 - Холестерин общий с&nbsp;расчетом риска сердечно-сосудистых осложнений по&nbsp;шкале SCORE для лиц от 40&nbsp;до 70&nbsp;лет» Для участия в&nbsp;акции необходимо назвать уникальный промокод администратору офиса CMD.</p>
+									<p class="conditions__text">В&nbsp;акции участвуют исследования «090009&nbsp;-&nbsp;Холестерин общий» и&nbsp&nbsp;«090088&nbsp;- Холестерин общий с&nbsp;расчетом риска сердечно-сосудистых осложнений по&nbsp;шкале SCORE для лиц от&nbsp;40 до&nbsp;70&nbsp;лет» Для участия в&nbsp;акции необходимо назвать уникальный промокод администратору офиса CMD.</p>
 									<p class="conditions__text">Взятие биоматериала по&nbsp;акции бесплатно.</p>
 									<p class="conditions__text">Акция не&nbsp;суммируется с&nbsp;другими скидками и&nbsp;акциями.</p>
 									<p class="conditions__text">Пройти онлайн-тестирование для получения уникального промокода можно с&nbsp;20&nbsp;сентября 2021&nbsp;г.</p>
-									<p class="conditions__text">Бесплатное лабораторное исследование по&nbsp;результатам тестирования доступно во&nbsp;всех офисах CMD в&nbsp;период с&nbsp;29&nbsp;сентября по 3&nbsp;октября 2021&nbsp;г.</p>
+									<p class="conditions__text">Бесплатное лабораторное исследование по&nbsp;результатам тестирования доступно во&nbsp;всех офисах CMD в&nbsp;период с&nbsp;29&nbsp;сентября по&nbsp;3&nbsp;октября 2021&nbsp;г.</p>
 							</div>
 						</section>
-            <section id="map" class="section__map">
-                <div class="container">
-                    <h2 class="main-caption map__caption">Где пройти исследование</h2>
-                    <div class="map-position map-active" data-target="first-map">
-                        <div class="map" id="mapFirst"></div>
-                    </div>
-                </div>
-            </section>
+					<section class="location section__map" id="location">
+						<div class="container">
+							<div class="location__header">
+								<h2><center>Где пройти исследование</center></h2>
+								<br>&nbsp;
+								<div class="location__map" id="map">
+									<? include $_SERVER["DOCUMENT_ROOT"] . '/local/include/insert_maps_offices.php'; ?>
+								</div>
+							</div>
+						</div>
+					</section>
+<!--            <section id="map" class="section__map">-->
+<!--                <div class="container">-->
+<!--                    <h2 class="main-caption map__caption">Где пройти исследование</h2>-->
+<!--                    <div class="map-position map-active" data-target="first-map">-->
+<!--                        <div class="map" id="mapFirst"></div>-->
+<!--											-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
         </main>
         <footer>
             <section class="footer">
@@ -738,7 +757,12 @@
         </footer>
 <!--        <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>-->
 		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-        <script src="js/map.js"></script>
+
+		<script type="text/javascript" src="/local/js/landingAddBasket.js"></script>
+		<? require($_SERVER['DOCUMENT_ROOT'] . '/local/include/widgets.php'); ?>
+		<script type="text/javascript" src="/local/widget/basketService.js?<?= time(); ?>"></script>
+		<script type="text/javascript" src="/local/widget/basketinfolanding/basketinfolanding.js"></script>
+		<script src="js/map.js"></script>
         <script src="js/fixedMenu.js"></script>
         <script src="js/animate.js"></script>
         <script src="js/cart.js"></script>

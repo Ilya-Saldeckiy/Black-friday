@@ -5,4 +5,10 @@ $(document).ready(function(){
             top = $(id).offset().top;
         $('body,html').animate(1500);
     });
+	$(".header__btn").on("click","a", function (event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('body,html').animate(1500);
+	});
 });
