@@ -112,6 +112,10 @@ li{
     color: #000001;;
 }
 
+.info__text a:hover,.simptom__description a:hover{
+	border-bottom: 1px solid #00a9e0;
+}
+
 .main-caption__decoration{
     color: #f8485e;
 }
@@ -141,6 +145,12 @@ li{
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
+}
+
+.factors__caption{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 45px;
 }
 
 .percent {
@@ -337,7 +347,7 @@ li{
 /* Стили основного контента */
 
 .section__info{
-    padding-top: 104px;
+    padding-top: 96px;
     padding-bottom: 92px;
     border-bottom: 1px solid #dddddd;
 }
@@ -827,6 +837,7 @@ li{
 
 .result__test-first{
 	display: none;
+	margin-top: 70px;
 }
 
 /*.result__test-second{*/
@@ -1204,11 +1215,11 @@ li{
 
 .cart__percent{
 	letter-spacing: -0.1em;
-	margin-bottom: 30px;
+	margin-bottom: 18px;
 }
 
 .simptoms__text{
-	margin-bottom: 44px;
+	margin-bottom: 32px;
 }
 
 .test-first__text{
@@ -1439,6 +1450,15 @@ li{
 	.info__percent-cart {
 		width: 254px;
 	}
+
+	.section__info{
+		padding-top: 74px;
+	}
+
+	.factors__caption{
+		width: 100%;
+		margin-bottom: 45px;
+	}
 }
 
 @media (max-width: 1023px){
@@ -1525,6 +1545,8 @@ li{
     .cart-btn{
         top: 6px;
     }
+
+
 
     .header-caption{
         padding-top: 96px;
@@ -1931,6 +1953,15 @@ li{
 		margin-bottom: 10px;
 	}
 
+	.section__info{
+		padding-top: 68px;
+	}
+
+	.factors__caption{
+		width: 100%;
+		margin-bottom: 45px;
+	}
+
 
 }
 
@@ -2139,7 +2170,7 @@ li{
     }
 
     .section__info{
-        padding-top: 59px;
+        padding-top: 54px;
         padding-bottom: 63px;
     }
 
@@ -2147,6 +2178,10 @@ li{
         font-size: 16px;
         line-height: 24px;
     }
+
+	.result__test-first{
+		margin-top: 59px;
+	}
 
     .text__paragraph{
         margin-bottom: 15px;
@@ -2522,7 +2557,7 @@ li{
 	}
 
 	.cart__percent{
-		margin-bottom: 4px;
+		margin-bottom: 0px;
 	}
 
 	.cart__percent-text{
@@ -2570,7 +2605,7 @@ li{
 	.simptoms__text{
 		font-size: 16px;
 		line-height: 24px;
-		margin-bottom: 28px
+		margin-bottom: 24px
 	}
 
 	.pattern-block-text__image{
@@ -2816,6 +2851,11 @@ li{
 
 	.second__test-caption-question{
 		margin-bottom: 40px;
+	}
+
+	.factors__caption{
+		width: 100%;
+		margin-bottom: 31px;
 	}
 
 

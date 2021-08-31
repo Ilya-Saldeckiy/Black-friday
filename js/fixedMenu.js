@@ -164,7 +164,7 @@ if($(window).width()> 319){
 
     var anchorScrolls = {
       ANCHOR_REGEX: /^#[^ ]+$/,
-      OFFSET_HEIGHT_PX: 40,
+      OFFSET_HEIGHT_PX: -40,
 
       /**
        * Establish events, and fix initial scroll position if a hash is provided.

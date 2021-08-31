@@ -12,3 +12,8 @@ im2.mask(selector2);
 let selector3 = document.querySelectorAll('.first-test__input');
 let im3 = new Inputmask('999');
 im3.mask(selector3);
+
+
+let selector4 = document.querySelectorAll('.test__input');
+let im4 = new Inputmask('999');
+im4.mask(selector4);
