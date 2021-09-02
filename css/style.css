@@ -1235,6 +1235,9 @@ li{
 	margin-bottom: 44px;
 }
 
+.result__link:hover{
+	text-decoration: underline;
+}
 
 /* Адаптив */
 @media (max-width: 1279px){

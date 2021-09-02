@@ -17,3 +17,7 @@ im3.mask(selector3);
 let selector4 = document.querySelectorAll('.test__input');
 let im4 = new Inputmask('999');
 im4.mask(selector4);
+
+let selector5 = document.querySelectorAll('.input__9');
+let im5 = new Inputmask('99');
+im5.mask(selector5);

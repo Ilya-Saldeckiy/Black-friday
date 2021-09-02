@@ -203,7 +203,7 @@
 								</div>
 								<div class="result__test-first-block__text">
 									<p class="result__test-first__caption">У&nbsp;вас <span class="test__decoration">средний риск</span> возникновения сердечно-сосудистых заболеваний.</p>
-									<p class="result__test-first__text">Профилактика – лучшее лечение! Ведите здоровый образ жизни. Регулярно проводите время на&nbsp;свежем воздухе, будьте физически активны, правильно питайтесь, откажитесь от&nbsp;вредных привычек. Лабораторное обследование поможет своевременно выявить патологию и&nbsp;выбрать наиболее подходящие меры профилактики.</p>
+									<p class="result__test-first__text">Профилактика&nbsp;– лучшее лечение! Ведите здоровый образ жизни. Регулярно проводите время на&nbsp;свежем воздухе, будьте физически активны, правильно питайтесь, откажитесь от&nbsp;вредных привычек. Лабораторное обследование поможет своевременно выявить патологию и&nbsp;выбрать наиболее подходящие меры профилактики.</p>
 								</div>
 							</div>
 							<div class="container d-flex result__test-first elevated-lvl">
@@ -212,7 +212,7 @@
 								</div>
 								<div class="result__test-first-block__text">
 									<p class="result__test-first__caption">У&nbsp;вас <span class="test__decoration">средний риск</span> возникновения сердечно-сосудистых заболеваний.</p>
-									<p class="result__test-first__text">Профилактика – лучшее лечение! Ведите здоровый образ жизни. Регулярно проводите время на свежем воздухе, будьте физически активны, правильно питайтесь, откажитесь от&nbsp;вредных привычек. Лабораторное обследование поможет своевременно выявить патологию и&nbsp;выбрать наиболее подходящие меры профилактики.</p>
+									<p class="result__test-first__text">Профилактика&nbsp;– лучшее лечение! Ведите здоровый образ жизни. Регулярно проводите время на свежем воздухе, будьте физически активны, правильно питайтесь, откажитесь от&nbsp;вредных привычек. Лабораторное обследование поможет своевременно выявить патологию и&nbsp;выбрать наиболее подходящие меры профилактики.</p>
 								</div>
 							</div>
 							<div class="container d-flex result__test-first high-lvl">
@@ -229,7 +229,7 @@
 						<section class="section__second-test" id="test-2">
 							<div class="container">
 							<h2 class="main-caption">Тест «Заботитесь ли&nbsp;Вы о&nbsp;своем сердце?»</h2>
-							<div class="second__test-position step-1 active__step">
+							<div class="second__test-position step-1">
 								<div class="second__test-left-block">
 									<p class="second__test-stage">1 / 10</p>
 									<div class="d-flex test__stage">
@@ -373,7 +373,7 @@
 										</form>
 									</div>
 								</div>
-								<div class="second__test-position step-5">
+								<div class="second__test-position step-5 active__step">
 									<div class="second__test-left-block">
 										<p class="second__test-stage">5 / 10</p>
 										<div class="d-flex test__stage">
@@ -392,11 +392,11 @@
 										<form>
 											<div class="d-flex position__input__wrap">
 												<label class="radio">
-													<input type="radio" name="radio">
+													<input type="radio" class="radio__test" id="radio" name="radio">
 													<span class="checkmark"></span>
 													Да
 												</label>
-												<div class="position__input__in__test">
+												<div class="position__input__in__test" id="text">
 													<p class="test__input-caption">Укажите значение:</p>
 													<div class="d-flex position__input__alignt">
 														<input class="test__input reset-input" type="text">
@@ -549,9 +549,9 @@
 												<div class="position__input__in__test">
 													<p class="test__input-caption">Укажите значение:</p>
 													<div class="d-flex position__input__alignt">
-														<input class="test__input reset-input" type="text">
-														<p class="text-text">/</p>
-														<input class="test__input reset-input" type="text">
+														<input class="test__input reset-input input__9" type="text">
+														<p class="text-text">,</p>
+														<input class="test__input reset-input input__9" type="text">
 													</div>
 												</div>
 											</div>
@@ -572,12 +572,12 @@
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
 											<span class="test__stage-line test__stage-line-red"></span>
-											<span class="test__stage-line"></span>
-											<span class="test__stage-line"></span>
-											<span class="test__stage-line"></span>
-											<span class="test__stage-line"></span>
-											<span class="test__stage-line"></span>
-											<span class="test__stage-line"></span>
+											<span class="test__stage-line test__stage-line-red"></span>
+											<span class="test__stage-line test__stage-line-red"></span>
+											<span class="test__stage-line test__stage-line-red"></span>
+											<span class="test__stage-line test__stage-line-red"></span>
+											<span class="test__stage-line test__stage-line-red"></span>
+											<span class="test__stage-line test__stage-line-red"></span>
 										</div>
 										<h3 class="second__test-caption-question">Какие продукты Вы предпочитаете?</h3>
 										<form>
@@ -648,28 +648,10 @@
 										<p class="result__persent-text">102<br><span class="result__persent-text-span">балла</span></p>
 									</div>
 									<div class="result__test-first-block__text">
-										<p class="result__test-second__text">Вы стараетесь заботиться о здоровье своего сердца, но&nbsp;всегда есть к&nbsp;чему стремиться! Сокращение потребления продуктов с&nbsp;высоким содержанием насыщенных (вредных) жиров, отказ от вредных привычек и&nbsp;регулярные физические упражнения позволят избежать гиподинамии и&nbsp;снизить риск развития сердечно-сосудистых заболеваний.</p>
+										<p class="result__test-second__text">Вы&nbsp;стараетесь заботиться о&nbsp;здоровье своего сердца, но&nbsp;всегда есть к&nbsp;чему стремиться! Сокращение потребления продуктов с&nbsp;высоким содержанием насыщенных (вредных) жиров, отказ от&nbsp;вредных привычек и&nbsp;регулярные физические упражнения позволят избежать гиподинамии и&nbsp;снизить риск развития сердечно-сосудистых заболеваний.</p>
 										<h4 class="result__subtitle">Рекомендованное бесплатное исследование</h4>
-										<a href="https://www.cmd-online.ru/analizy-i-tseny/katalog-analizov/obshhij-belok-belkovyje-frakcii/?search=y" class="result__link">Холестерин общий с&nbsp;расчетом риска сердечно-сосудистых осложнений по&nbsp;шкале SCORE для лиц от 40&nbsp;до 70&nbsp;лет</a>
+										<a href="https://www.cmd-online.ru/analizy-i-tseny/katalog-analizov/obshhij-belok-belkovyje-frakcii/?search=y" class="result__link">Холестерин общий с&nbsp;расчетом риска сердечно-сосудистых осложнений по&nbsp;шкале SCORE для лиц от&nbsp;40&nbsp;до&nbsp;70&nbsp;лет</a>
 										<p class="result__code">Код: 090081</p>
-									</div>
-								</div>
-								<div class="test__second-test">
-									<h4 class="promocode__test-caption">Чтобы получить промокод, укажите Ваш email или телефон</h4>
-									<div class="d-flex promocode__block">
-										<div class="input__promocode-position">
-											<p>Email</p>
-											<input class="promocode__input reset-input email__input" type="text" placeholder="_@_._" required>
-										</div>
-										<div class="input__promocode-position">
-											<p>Телефон</p>
-											<input class="promocode__input reset-input" type="tel" placeholder="+7 (___) ___-__-__" required>
-										</div>
-										<button class="btn promocode__btn animate__btn" type="button">Получить промокод</button>
-									</div>
-									<div class="success__promocode-block d-flex">
-										<img class="success__promocode-img" src="img/ico.png" alt="">
-										<p class="success__promocode-text">Ваш промокод отправлен</p>
 									</div>
 								</div>
 							</div>
@@ -679,29 +661,29 @@
 										<p class="result__persent-text">239<br><span class="result__persent-text-span">балов</span></p>
 									</div>
 									<div class="result__test-first-block__text">
-										<p class="result__test-second__text">Вы не&nbsp;уделяете должного внимания здоровью своего сердца. Правильное питание, отказ от вредных привычек, снижение уровня стресса – это действенные методы для поддержания здоровья не&nbsp;только сердечно-сосудистой системы, но&nbsp;и&nbsp;всего организма в&nbsp;целом.</p>
+										<p class="result__test-second__text">Вы не&nbsp;уделяете должного внимания здоровью своего сердца. Правильное питание, отказ от&nbsp;вредных привычек, снижение уровня стресса&nbsp;– это действенные методы для поддержания здоровья не&nbsp;только сердечно-сосудистой системы, но&nbsp;и&nbsp;всего организма в&nbsp;целом.</p>
 										<h4 class="result__subtitle">Рекомендованное бесплатное исследование</h4>
-										<a href="https://www.cmd-online.ru/analizy-i-tseny/katalog-analizov/obshhij-belok-belkovyje-frakcii/?search=y" class="result__link">Холестерин общий с&nbsp;расчетом риска сердечно-сосудистых осложнений по шкале SCORE для лиц от 40&nbsp;до 70&nbsp;лет</a>
+										<a href="https://www.cmd-online.ru/analizy-i-tseny/katalog-analizov/obshhij-belok-belkovyje-frakcii/?search=y" class="result__link">Холестерин общий с&nbsp;расчетом риска сердечно-сосудистых осложнений по шкале SCORE для лиц от&nbsp;40 до&nbsp;70&nbsp;лет</a>
 										<p class="result__code">Код: 090081</p>
 									</div>
 								</div>
-								<div class="test__second-test">
-									<h4 class="promocode__test-caption">Чтобы получить промокод, укажите Ваш email или телефон</h4>
-									<div class="d-flex promocode__block">
-										<div class="input__promocode-position">
-											<p>Email</p>
-											<input class="promocode__input reset-input email__input" type="text" placeholder="_@_._" required>
-										</div>
-										<div class="input__promocode-position">
-											<p>Телефон</p>
-											<input class="promocode__input reset-input" type="tel" placeholder="+7 (___) ___-__-__" required>
-										</div>
-										<button class="btn promocode__btn animate__btn" type="button">Получить промокод</button>
+							</div>
+							<div class="container test__second-test">
+								<h4 class="promocode__test-caption">Чтобы получить промокод, укажите Ваш email или телефон</h4>
+								<div class="d-flex promocode__block">
+									<div class="input__promocode-position">
+										<p>Email</p>
+										<input class="promocode__input reset-input email__input" type="text" placeholder="_@_._" required>
 									</div>
-									<div class="success__promocode-block d-flex">
-										<img class="success__promocode-img" src="img/ico.png" alt="">
-										<p class="success__promocode-text">Ваш промокод отправлен</p>
+									<div class="input__promocode-position">
+										<p>Телефон</p>
+										<input class="promocode__input reset-input" type="tel" placeholder="+7 (___) ___-__-__" required>
 									</div>
+									<button class="btn promocode__btn animate__btn" type="button">Получить промокод</button>
+								</div>
+								<div class="success__promocode-block d-flex">
+									<img class="success__promocode-img" src="img/ico.png" alt="">
+									<p class="success__promocode-text">Ваш промокод отправлен</p>
 								</div>
 							</div>
 						</section>

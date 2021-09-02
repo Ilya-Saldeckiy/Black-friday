@@ -26,3 +26,6 @@ document.getElementById('testBtn').addEventListener('click', function(event){
 	const el = document.getElementById('test-2');
 	el.scrollIntoView({behavior: "smooth"});
 })
+
+
+
