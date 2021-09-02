@@ -2742,8 +2742,12 @@ li{
 
 	.test-first__img,.steps__cart-img{
 		width: 56px;
-		height: 49px;
+		height: 42px;
 	}
+
+    .mobile__step-4{
+        height: 49px;
+    }
 
 	.test-first__position {
 		align-items:center;
