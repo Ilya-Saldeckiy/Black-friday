@@ -1268,6 +1268,15 @@ li{
 }
 
 
+.width-200{
+	width: 200px;
+}
+
+.width-170{
+	width: 170px;
+}
+
+
 /* Адаптив */
 @media (max-width: 1279px){
     .container,.small-container,.servizio__container{
