@@ -29,3 +29,15 @@ document.getElementById('testBtn').addEventListener('click', function(event){
 
 
 
+let radio1 = document.getElementById("#radio");
+
+let block1 = document.getElementById("text");
+
+function check() {
+	if (radio1.checked == true){
+		block1.classList.add("active");
+	}else{
+		block1.classList.remove("active");
+	}
+}
+
