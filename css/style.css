@@ -1323,7 +1323,10 @@ color: #00a9e0;
 	padding-bottom: 60px;
 }
 
-
+.left__block-padding{
+    padding-top: 26px;
+    padding-bottom: 40px;
+}
 
 
 
@@ -1690,8 +1693,10 @@ color: #00a9e0;
         top: 6px;
     }
 
-
-
+    .left__block-padding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .header-caption{
 			padding-top: 58px;
 			font-weight: 700;
@@ -2132,6 +2137,16 @@ color: #00a9e0;
         padding-left: 16px;
         padding-right: 16px;
         width: 100%;
+    }
+
+    .left__block-padding{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .second__test-position{
+        padding: 0;
+        border: none;
     }
 
     .section-adress{
