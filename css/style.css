@@ -887,7 +887,7 @@ color: #00a9e0;
 /*}*/
 
 .test__stage-line{
-	width: 50px;
+	width: 40px;
 	height: 4px;
 	background-color: #e9e3e3;
 }
@@ -1025,6 +1025,7 @@ color: #00a9e0;
 .second__test-left-block{
 	background: url("../img/test_bg.svg") no-repeat;
 	background-position: right center;
+	background-size: contain;
 }
 
 .section__second-test{
@@ -1314,6 +1315,17 @@ color: #00a9e0;
 	width: 170px;
 }
 
+.second__test-position{
+	border: 1px solid #e2e2e2;
+	padding-left: 88px;
+	padding-right: 88px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+
+
 
 /* Адаптив */
 @media (max-width: 1279px){
@@ -1577,6 +1589,13 @@ color: #00a9e0;
 
 	.promocode__input{
 		width: 100%;
+	}
+
+	.second__test-position {
+		padding-left: 88px;
+		padding-right: 48px;
+		padding-top: 48px;
+		padding-bottom: 48px;
 	}
 
 }
@@ -2096,6 +2115,13 @@ color: #00a9e0;
 
 	.promocode__block{
 		flex-wrap: wrap;
+	}
+
+	.second__test-position {
+		padding-left: 40px;
+		padding-right: 16px;
+		padding-top: 50px;
+		padding-bottom: 48px;
 	}
 
 
