@@ -360,7 +360,7 @@ li{
 }
 
 .header__btn:hover{
-	background-color: #0949bc;
+	background-color: #18bbf0;
 }
 
 
@@ -3088,6 +3088,7 @@ color: #00a9e0;
 
 	.header-subtitle{
 		width: 260px;
+		padding-left: 0;
 
 	}
 
