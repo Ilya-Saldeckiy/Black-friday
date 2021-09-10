@@ -385,7 +385,7 @@ color: #00a9e0;
 /* Стили основного контента */
 
 .section__info{
-    padding-top: 96px;
+    padding-top: 104px;
     padding-bottom: 92px;
     border-bottom: 1px solid #dddddd;
 }
@@ -821,7 +821,7 @@ color: #00a9e0;
 
 .result__persent-text{
 	font-size: 60px;
-	line-height: 40px;
+	line-height: 30px;
 	font-weight: 700;
 	color: #f09b06;
 }
@@ -858,7 +858,7 @@ color: #00a9e0;
 }
 
 .high-lvl  .result__persent{
-	border-color: #f88461;
+	border-color: #f87c56;
 }
 
 .high-lvl  .test__decoration,.high-lvl  .result__persent-text,.high-lvl .result__persent-text-span{
@@ -1025,7 +1025,7 @@ color: #00a9e0;
 .second__test-left-block{
 	background: url("../img/test_bg.svg") no-repeat;
 	background-position: right center;
-	background-size: contain;
+	background-size: auto;
 }
 
 .section__second-test{
@@ -1071,7 +1071,7 @@ color: #00a9e0;
 	line-height: 32px;
 	font-weight: 600;
 	color: #000000;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 }
 
 .result__link{
@@ -1080,7 +1080,7 @@ color: #00a9e0;
 	font-weight: 400;
 	color: #00a9e0;
 	display: block;
-	margin-bottom: 18px;
+	margin-bottom: 23px;
 }
 
 .result__code{
@@ -1088,7 +1088,7 @@ color: #00a9e0;
 	line-height: 24px;
 	font-weight: 400;
 	color: #777777;
-	margin-bottom:24px;
+	margin-bottom:22px;
 }
 
 .test__second-test{
@@ -1285,7 +1285,7 @@ color: #00a9e0;
 
 
 .result__test-second .result__persent{
-	padding-top: 40px;
+	padding-top: 56px;
 }
 
 
@@ -1561,7 +1561,7 @@ color: #00a9e0;
 	}
 
 	.section__info{
-		padding-top: 74px;
+		padding-top: 106px;
 	}
 
 	.factors__caption{
@@ -2052,10 +2052,6 @@ color: #00a9e0;
 		margin-bottom: 20px;
 	}
 
-	.active__results-seconds .d-flex{
-		flex-direction: column;
-	}
-
 	.input__promocode-position {
 		margin-right: 0;
 		width: 100%;
@@ -2110,7 +2106,7 @@ color: #00a9e0;
 	}
 
 	.section__info{
-		padding-top: 68px;
+		padding-top: 106px;
 	}
 
 	.factors__caption{
@@ -2634,7 +2630,7 @@ color: #00a9e0;
 		}
 
 	.section__info{
-		padding-bottom: 51px;
+		padding-bottom: 59px;
 	}
 
 	.simptoms__caption-list{
@@ -3090,6 +3086,26 @@ color: #00a9e0;
 		width: 260px;
 		padding-left: 0;
 
+	}
+
+
+	.success__promocode-block{
+		margin-top: 0;
+		text-align: left;
+		width: 250px;
+	}
+
+
+	.success__promocode-img{
+		margin-right: 24px;
+	}
+
+	.active__results-seconds .d-flex {
+		 flex-direction: column;
+	}
+
+	.result__test-second .result__persent {
+		padding-top: 44px;
 	}
 
 
