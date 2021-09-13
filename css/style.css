@@ -821,7 +821,7 @@ color: #00a9e0;
 
 .result__persent-text{
 	font-size: 60px;
-	line-height: 30px;
+	line-height: 48px;
 	font-weight: 700;
 	color: #f09b06;
 }
@@ -857,7 +857,7 @@ color: #00a9e0;
 	color: #f87c56;
 }
 
-.high-lvl  .result__persent{
+.elevated-lvl  .result__persent{
 	border-color: #f87c56;
 }
 
@@ -1071,7 +1071,7 @@ color: #00a9e0;
 	line-height: 32px;
 	font-weight: 600;
 	color: #000000;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 }
 
 .result__link{
@@ -1080,7 +1080,7 @@ color: #00a9e0;
 	font-weight: 400;
 	color: #00a9e0;
 	display: block;
-	margin-bottom: 23px;
+	margin-bottom: 20px;
 }
 
 .result__code{
@@ -1088,7 +1088,7 @@ color: #00a9e0;
 	line-height: 24px;
 	font-weight: 400;
 	color: #777777;
-	margin-bottom:22px;
+	margin-bottom:20px;
 }
 
 .test__second-test{
@@ -1237,7 +1237,7 @@ color: #00a9e0;
 }
 
 .result__persent{
-	padding-top: 65px;
+	padding-top: 64px;
 }
 
 
@@ -1326,6 +1326,10 @@ color: #00a9e0;
 .left__block-padding{
     padding-top: 26px;
     padding-bottom: 40px;
+}
+
+.result__test-second .result__persent-text{
+	line-height: 35px;
 }
 
 
@@ -1620,6 +1624,10 @@ color: #00a9e0;
 		.header-caption-position{
 			display: block;
 		}
+
+	.result__persent{
+
+	}
 
     .logo{
         margin-right: auto;

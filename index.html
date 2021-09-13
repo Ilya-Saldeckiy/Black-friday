@@ -188,12 +188,12 @@
 									<form>
 										<div class="position__input">
 											<label class="first-test__label">Ваш рост, см:</label>
-											<input class="first-test__input reset-input" type="text">
+											<input class="first-test__input reset-input" type="number" onKeyDown="if(this.value.length==3) return false;">
 										</div>
 										<div class="position__input">
 											<label class="first-test__label">Ваш вес, кг:</label>
 											<div class="mobile__size">
-												<input class="first-test__input reset-input mobile__last-input" type="text">
+												<input class="first-test__input reset-input mobile__last-input" type="number" onKeyDown="if(this.value.length==3) return false;">
 												<button class="btn first-test__btn animate__btn">Узнать риск </button>
 											</div>
 										</div>
@@ -415,9 +415,9 @@
 												<div class="position__input__in__test" id="text">
 													<p class="test__input-caption">Укажите значение:</p>
 													<div class="d-flex position__input__alignt">
-														<input class="test__input reset-input" type="text">
+														<input class="test__input reset-input" type="number" onKeyDown="if(this.value.length==3) return false;">
 														<p class="text-text">/</p>
-														<input class="test__input reset-input" type="text">
+														<input class="test__input reset-input" type="number" onKeyDown="if(this.value.length==3) return false;">
 													</div>
 												</div>
 											</div>
@@ -573,9 +573,9 @@
 												<div class="position__input__in__test">
 													<p class="test__input-caption">Укажите значение:</p>
 													<div class="d-flex position__input__alignt">
-														<input class="test__input reset-input input__9" type="text">
+														<input class="test__input reset-input input__9" type="number" onKeyDown="if(this.value.length==2) return false;">
 														<p class="text-text">,</p>
-														<input class="test__input reset-input input__9" type="text">
+														<input class="test__input reset-input input__9" type="number" onKeyDown="if(this.value.length==2) return false;">
 													</div>
 												</div>
 											</div>
