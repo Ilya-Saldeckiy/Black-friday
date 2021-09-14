@@ -1071,7 +1071,7 @@ color: #00a9e0;
 	line-height: 32px;
 	font-weight: 600;
 	color: #000000;
-	margin-bottom: 18px;
+	margin-bottom: 14px;
 }
 
 .result__link{
@@ -1080,7 +1080,7 @@ color: #00a9e0;
 	font-weight: 400;
 	color: #00a9e0;
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 
 .result__code{
@@ -1088,7 +1088,7 @@ color: #00a9e0;
 	line-height: 24px;
 	font-weight: 400;
 	color: #777777;
-	margin-bottom:20px;
+	margin-bottom:16px;
 }
 
 .test__second-test{
@@ -1258,8 +1258,11 @@ color: #00a9e0;
 }
 
 .cart__percent{
-	letter-spacing: -0.1em;
 	margin-bottom: 18px;
+}
+
+.comma{
+	letter-spacing: -0.1em;
 }
 
 .simptoms__text{
@@ -1653,6 +1656,7 @@ color: #00a9e0;
 			padding-top: 0;
 			margin: 0 auto;
 			text-align: center;
+			padding-left: 0;
     }
 
     .header-sale-description{
@@ -2082,10 +2086,6 @@ color: #00a9e0;
 		padding-right: 48px;
 		padding-top: 60px;
 		padding-bottom: 60px;
-	}
-
-	.success__promocode-img{
-		margin-right: 0;
 	}
 
 	.success__promocode-text{
@@ -2914,7 +2914,7 @@ color: #00a9e0;
 
 	.test-first__img,.steps__cart-img{
 		width: 56px;
-		height: 42px;
+		height: 56px;
 	}
 
     .mobile__step-4{
