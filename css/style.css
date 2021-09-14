@@ -1071,7 +1071,7 @@ color: #00a9e0;
 	line-height: 32px;
 	font-weight: 600;
 	color: #000000;
-	margin-bottom: 14px;
+	margin-bottom: 8px;
 }
 
 .result__link{
@@ -1080,7 +1080,7 @@ color: #00a9e0;
 	font-weight: 400;
 	color: #00a9e0;
 	display: block;
-	margin-bottom: 16px;
+	margin-bottom: 13px;
 }
 
 .result__code{
@@ -1088,7 +1088,7 @@ color: #00a9e0;
 	line-height: 24px;
 	font-weight: 400;
 	color: #777777;
-	margin-bottom:16px;
+	margin-bottom:50px;
 }
 
 .test__second-test{
@@ -2754,6 +2754,8 @@ color: #00a9e0;
 
 	.prompt__position {
 		text-align: left;
+		padding-left: 16px;
+		padding-right: 16px;
 	}
 
 	.info__percent-block{
@@ -2770,6 +2772,8 @@ color: #00a9e0;
 		margin: 0 auto;
 		margin-bottom: 46px;
 		height: auto;
+		padding-right: 16px;
+		padding-left: 16px;
 	}
 
 	.image-position img{
@@ -3062,12 +3066,11 @@ color: #00a9e0;
 	.result__subtitle{
 		font-size: 16px;
 		line-height: 24px;
-		margin-bottom: 16px;
 	}
 
 	.result__code{
 		font-size: 14px;
-		margin-bottom: 38px;
+		margin-bottom: 33px;
 	}
 
 	.container__promocode{
@@ -3113,7 +3116,15 @@ color: #00a9e0;
 	}
 
 	.result__test-second .result__persent {
-		padding-top: 44px;
+		padding-top: 40px;
+	}
+
+	.result__test-second .result__persent-text {
+		line-height: 28px;
+	}
+
+	.result__link{
+		margin-bottom: 9px;
 	}
 
 
