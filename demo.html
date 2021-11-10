@@ -1,0 +1,331 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+
+
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  box-sizing: border-box;
+  background: #2d2c2f;
+}
+
+.content{
+  background: rgba(255, 0, 255, 0.03);
+  height: 500px;
+}
+
+header{
+  background: #21211f url(../img/header_bg_mob_a.jpg) bottom center no-repeat;
+  background-size: 100% auto;
+}
+
+header .content{
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  padding: 0 16px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.header-text{
+  background: rgba(255, 0, 255, 0.1);
+  height: 304px;
+}
+
+@keyframes anim_circle_animation {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes anim_percent_animation {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  22% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  26% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  76% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 0;
+  }
+  79% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.anim{
+  position: absolute;
+  z-index: 2;
+  left: 10%;
+  width: 25%;
+}
+
+.anim-percent, .anim-circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.anim-percent{
+  z-index: 2;
+  animation: anim_percent_animation 4s linear infinite;
+}
+
+.anim-circle{
+  z-index: 1;
+  animation: anim_circle_animation 4s linear infinite;
+}
+
+section{
+  padding: 72px 16px;
+  height: 700px;
+  box-sizing: border-box;
+}
+
+.section-intro{
+  background: url(../img/bg_1.png) top center no-repeat;
+  background-size: 100% auto;
+}
+
+.section-20, .section-40{
+  background: #21221f url(../img/bg_2.png) 200% -24px no-repeat;
+}
+
+.section-30{
+  background: url(../img/bg_3.png) 120% 24px no-repeat;
+}
+
+
+@media (max-width: 768px){
+
+  header{
+    padding-bottom: 98%;
+  }
+
+}
+
+
+@media (max-width: 420px){
+
+  .anim{
+    top: 128%;
+  }
+
+  .section-20, .section-40{
+    background-size: 320px auto;
+  }
+
+  .section-30{
+    background-size: 256px auto;
+  }
+
+}
+
+
+@media (min-width: 421px) and (max-width: 767px){
+
+  .anim{
+    top: 138%;
+  }
+
+  .section-20, .section-40{
+    background-size: 360px auto;
+    background-position: 100% -24px;
+  }
+
+  .section-30{
+    background-size: 320px auto;
+    background-position: 100% 24px;
+  }
+
+}
+
+
+@media (min-width: 768px){
+
+  header{
+    height: 656px;
+    background: #21211f url(../img/header_bg_a.jpg) bottom center no-repeat;
+    background-size: auto 100%;
+  }
+
+  header .content{
+    padding: 96px 16px;
+  }
+
+  .header-text{
+    width: 384px;
+    height: 384px;
+  }
+
+  .anim{
+    top: 180px;
+    left: 52%;
+    width: 168px;
+  }
+
+  section{
+    padding: 160px 16px;
+    height: 1000px;
+  }
+
+  .section-20, .section-40{
+    background-position: 200px -36px;
+  }
+
+  .section-30{
+    background-position: 180px center;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+  .section-30{
+    background-size: 768px auto;
+  }
+
+}
+
+
+@media (min-width: 1024px){
+
+  .content{
+    margin: 0 auto;
+    max-width: 968px;
+  }
+
+  header{
+    height: 768px;
+  }
+
+  .header-text{
+    width: 480px;
+    height: 480px;
+  }
+
+  .anim{
+    top: 210px;
+    left: 520px;
+    width: 195px;
+  }
+
+  .section-20, .section-40{
+    background-position: 500px -36px;
+  }
+
+  .section-30{
+    background-position: 180% center;
+  }
+
+}
+
+
+@media (min-width: 1280px){
+
+  .content{
+    max-width: 1232px;
+  }
+
+  .anim{
+    left: 635px;
+  }
+
+  .section-20, .section-40{
+    background-position: 115% -36px;
+  }
+
+  .section-30{
+    background-position: 103% center;
+  }
+
+}
+
+
+</style>
+</head>
+<body>
+
+<header>
+
+  <div class="content">
+
+    <div class="anim">
+      <img src="../img/anim_2.png" alt="" class="anim-percent">
+      <img src="../img/anim_1.png" alt="" class="anim-circle">
+    </div>
+
+    <div class="header-text"></div>
+
+  </div>
+
+</header>
+
+
+<section class="section-intro">
+  <div class="content"></div>
+</section>
+
+<section class="section-20">
+  <div class="content"></div>
+</section>
+
+<section class="section-30">
+  <div class="content"></div>
+</section>
+
+<section class="section-40">
+  <div class="content"></div>
+</section>
+
+
+
+</body>
