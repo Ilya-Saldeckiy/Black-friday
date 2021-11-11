@@ -17,15 +17,15 @@
 }
 
 .modal-close-btn{
-	width: 18px;
-	height: 18px;
+	width: 24px;
+	height: 24px;
 	outline: none;
 	border: none !important;
 	background: url("../img/ico_x.svg") no-repeat !important;
 	background-size: cover !important;
 	position: absolute;
-	top: 27px;
-	right: 27px;
+	top: 24px;
+	right: 24px;
 }
 
 .modal-title{
@@ -99,7 +99,9 @@
 	}
 
 	.modal-close-btn{
-		-webkit-background-size: 18px !important;
+		-webkit-background-size: 24px !important;
+		top: 8px;
+		right: 8px;
 	}
 
 

@@ -894,6 +894,10 @@ ol{
 	border-color: #313139;
  }
 
+ .section__sale40 .sale__promocode-block,.section__sale20 .sale__promocode-block{
+	 background-color: #3b3a3d;
+ }
+
 
 
 @media (min-width: 1200px){
@@ -1226,6 +1230,14 @@ ol{
 
 	.chesel-row{
 		z-index: 30;
+	}
+
+	.sale__subtitle {
+		margin-bottom: 24px;
+	}
+
+	.sale__list-item p {
+		margin-left: 20px;
 	}
 
 
@@ -1663,6 +1675,22 @@ ol{
 
 	.header__subtitle-caption{
 		margin-bottom: -4px;
+	}
+
+	.sale__subtitle {
+		margin-bottom: 21px;
+	}
+
+	.sale__list {
+		padding-left: 22px;
+	}
+
+	.sale__list-item:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.sale__link {
+		margin-top: 28px;
 	}
 
 
