@@ -84,6 +84,14 @@
 	animation: anim_circle_animation 4s linear infinite;
 }
 
+.section__sale10, .section__sale30{
+	background-position: 200px -36px;
+}
+
+.section__sale20,.section__sale40{
+	background-position: 180px center;
+}
+
 @media (max-width: 1279px) {
 	.anim {
 		top: 4px;
@@ -91,14 +99,15 @@
 		width: 20%;
 	}
 
-	.section__sale20, .section__sale40{
-		background-position: 500px 0%;
-	}
+	/*.section__sale20, .section__sale40{*/
+	/*	background-position: 500px 0%;*/
+	/*}*/
 
-	.section__sale10, .section__sale30{
-		background-position: 180% center;
-	}
+	/*.section__sale10, .section__sale30{*/
+	/*	background-position: 180% center;*/
+	/*}*/
 }
+
 
 @media (max-width: 1023px) {
 	.anim {
@@ -135,7 +144,7 @@
 	.anim {
 		top: 213%;
 		left: 13%;
-		width: 168px;
+		width: 25%;
 	}
 
 	.section__sale10, .section__sale30{
@@ -149,38 +158,38 @@
 
 }
 
-@media (max-width: 680px){
-	.anim{
-		top: 190%;
-		left: 11%;
-	}
-}
+/*@media (max-width: 680px){*/
+/*	.anim{*/
+/*		top: 190%;*/
+/*		left: 11%;*/
+/*	}*/
+/*}*/
 
-@media (max-width: 620px){
-	.anim{
-		top: 180%;
-	}
-}
+/*@media (max-width: 620px){*/
+/*	.anim{*/
+/*		top: 180%;*/
+/*	}*/
+/*}*/
 
-@media (max-width: 580px){
-	.anim{
-		top: 190%;
-		left: 15%;
-		width: 81px;
-	}
-}
+/*@media (max-width: 580px){*/
+/*	.anim{*/
+/*		top: 190%;*/
+/*		left: 15%;*/
+/*		width: 81px;*/
+/*	}*/
+/*}*/
 
-@media (max-width: 520px){
-	.anim{
-		left: 9%;
-	}
-}
+/*@media (max-width: 520px){*/
+/*	.anim{*/
+/*		left: 9%;*/
+/*	}*/
+/*}*/
 
-@media (max-width: 480px){
-	.anim{
-		top: 140%;
-	}
-}
+/*@media (max-width: 480px){*/
+/*	.anim{*/
+/*		top: 140%;*/
+/*	}*/
+/*}*/
 
 
 @media (max-width: 420px){
@@ -200,7 +209,7 @@
 }
 
 
-@media (max-width: 421px) and (max-width: 767px){
+@media (min-width: 421px) and (max-width: 767px){
 
 	.anim{
 		top: 138%;
@@ -225,12 +234,30 @@
 	.section__sale10, .section__sale30{
 		background-position: 100px -36px;
 	}
+}
 
-	.anim {
-		top: 297px;
-		left: 11%;
-		width: 81px;
+@media (min-width: 1024px){
+
+	.section__sale10, .section__sale30{
+		background-position: 500px -36px;
 	}
+
+	.section__sale20,.section__sale40{
+		background-position: 180% center;
+	}
+
+}
+
+
+@media (min-width: 1280px){
+	.section__sale10, .section__sale30{
+		background-position: 115% -36px;
+	}
+
+	.section__sale20,.section__sale40{
+		background-position: 103% center;
+	}
+
 }
 
 

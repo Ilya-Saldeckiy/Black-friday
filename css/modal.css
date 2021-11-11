@@ -13,6 +13,7 @@
 	padding-top: 40px;
 	padding-bottom: 43px;
 	padding-right: 45px;
+	border-radius: 0;
 }
 
 .modal-close-btn{
@@ -95,6 +96,10 @@
 		font-size: 14px;
 		line-height: 16px;
 		font-weight: 600;
+	}
+
+	.modal-close-btn{
+		-webkit-background-size: 18px !important;
 	}
 
 
