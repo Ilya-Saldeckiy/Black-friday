@@ -166,7 +166,7 @@
 @media (max-width: 420px){
 
 	.anim{
-		top: 128%;
+		top: 138%;
 	}
 
 	.section__sale10, .section__sale30{
@@ -208,6 +208,17 @@
 	}
 }
 
+
+@media (min-width: 767px){
+	.section__sale20,.section__sale40{
+		background-position: 180px center;
+	}
+
+	.section__sale10, .section__sale30{
+		background-position: 200px -36px;
+	}
+}
+
 @media (min-width: 1024px){
 
 	.section__sale10, .section__sale30{
@@ -218,17 +229,6 @@
 		background-position: 180% center;
 	}
 
-}
-
-
-@media (min-width: 767px){
-	.section__sale20,.section__sale40{
-		background-position: 180px center;
-	}
-
-	.section__sale10, .section__sale30{
-		background-position: 200px -36px;
-	}
 }
 
 @media (min-width: 768px) and (max-width: 1023px){

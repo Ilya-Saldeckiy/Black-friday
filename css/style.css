@@ -1240,6 +1240,10 @@ ol{
 		margin-left: 20px;
 	}
 
+	.sale__subtitle{
+		margin-bottom: 16px;
+	}
+
 
 
 }
@@ -1691,6 +1695,11 @@ ol{
 
 	.sale__link {
 		margin-top: 28px;
+		margin-bottom: 44px;
+	}
+
+	.sale__subtitle{
+		margin-bottom: 12px;
 	}
 
 
